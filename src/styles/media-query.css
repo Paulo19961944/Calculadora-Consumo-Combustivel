@@ -1,0 +1,86 @@
+/*TABLETS*/
+@media (min-width: 768px){
+    /*FORMULÁRIO*/
+    form {
+        max-width: 691.2px; /*Largura Máxima de 691,2px*/
+    }
+    
+    /*BOTÃO AO PASSAR O MOUSE*/
+    #calcularBtn:hover {
+        cursor: pointer; /*Mãozinha do Cursor*/
+    }
+}
+
+/*DESKTOP*/
+@media (min-width: 1024px){
+    /*FORMULÁRIO*/
+    form {
+        max-width: 920px; /*Largura Máxima de 920px*/
+        height: 580px; /*Altura de 580px*/
+    }
+
+    /*PARÁGRAFOS DO FORMULÁRIO E BOTÃO*/
+    form label, #calcularBtn, #resultado {
+        font-size: 1rem; /*Tamanho da Fonte de 1rem - Aprox: 16px*/
+    }
+
+    /*TÍTULO DO FORMULARIO*/
+    form fieldset legend {
+        font-size: 2rem; /*Tamanho da Fonte de 2rem - Aprox: 32px*/
+    }
+
+    /*BOTÃO DE CALCULAR*/
+    #calcularBtn {
+        margin-top: 48px; /*Margem Superior de 48px*/
+        width: 160px; /*Largura de 160px*/
+        height: 40px; /*Altura de 40px*/
+    }
+
+    /*RESULTADO*/
+    #resultado {
+        margin-top: 80px; /*Margem Superior de 80px*/
+    }
+
+    /*INPUTS*/
+    #litros, #km {
+        width: 70%; /*Largura de 70%*/
+    }
+}
+
+/*TELAS DE APROX - 2.5K*/
+@media(min-width: 2400px){
+    /*FORMULÁRIO*/
+    form {
+        padding: 96px 0; /*Preenchimento Vertical de 96px e zera na Horizontal*/
+        max-width: 1680px; /*Largura Máxima de 1680px*/
+        height: 848px; /*Altura de 848px*/
+    }
+
+    /*TÍTULOS DO FORMULÁRIO*/
+    form fieldset legend {
+        font-size: 3rem; /*Tamanho da Fonte de 3rem - Aprox: 48px*/
+    }
+
+    /*INPUT*/
+    #litros, #km {
+        border-radius: 8px; /*Arrendonda a Borda*/
+        height: 48px; /*Altura de 48px*/
+    }
+
+    /*PARÁGRAFOS DO FORMULÁRIO E BOTÃO*/
+    form label, #calcularBtn, #resultado {
+        font-size: 2rem; /*Tamanho da Fonte de 2rem - Aprox: 32px*/
+    }
+
+    /*BOTÃO*/
+    #calcularBtn {
+        border-radius: 8px; /*Arrendonda a Borda*/
+        width: 280px; /*Largura de 280px*/
+        height: 64px; /*Altura de 64px*/
+    }
+
+    /*PARÁGRAFO QUE EXIBE O RESULTADO*/
+    #resultado {
+        margin-top: 96px; /*Margem Superior de 96px*/
+    }
+}

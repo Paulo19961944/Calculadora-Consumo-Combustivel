@@ -1,0 +1,82 @@
+/*ESTILO GLOBAL*/
+* {
+    margin: 0; /*Zera a Margem*/
+    padding: 0; /*Zera o Padding*/
+    box-sizing: border-box; /*Box Model*/
+    font-family: "Titillium Web", sans-serif; /*Fonte do Google*/
+}
+
+/*CONTEÚDO DA PÁGINA*/
+body {
+    background: linear-gradient(45deg, #3179c2, #22cbaa); /*Cor de Fundo (Gradiente Azul com Verde)*/
+    display: flex; /*Flexbox*/
+    justify-content: center; /*Alinha ao Centro no Eixo Principal*/
+    align-items: center; /*Alinha ao Centro no Eixo Perpendicular*/
+    min-height: 100vh; /*Altura Minima de 100% da Tela*/
+}
+
+/*FORMULÁRIO*/
+form {
+    background-color: #f0f0f0; /*Cor de Fundo - Branco*/
+    border-radius: 16px; /*Arredonda a Borda*/
+    width: 90vw; /*Largura de 90% da Tela*/
+    height: 480px; /*Altura de 480px*/
+    padding: 48px 0; /*Preenchimento de 48px*/
+}
+
+/*CAMPOS DO FORMULÁRIO*/
+form fieldset {
+    border: none; /*Esconde a Borda*/
+    display: flex; /*Flexbox*/
+    flex-direction: column; /*Alinha em Colunas*/
+    align-items: center; /*Alinha o Eixo Perpendicular ao Centro*/
+}
+
+/*TÍTULO DO FORMULÁRIO*/
+form fieldset legend {
+    margin: 48px 0; /*Margem Vertical de 48px*/
+    font-size: 1.1875rem; /*Tamanho da Fonte de 1.1875rem - Aprox: 19px*/
+    text-align: center; /*Alinha o Texto no Centro*/
+}
+
+/*PARÁGRAFOS DO FORMULÁRIO*/
+form label {
+    font-family: 'Barlow', sans-serif; /*Fonte Barlow do Google*/
+}
+
+/*INPUTS*/
+#litros, #km {
+    border: none; /*Tira a Borda*/
+    border-radius: 4px; /*Arredonda as Bordas*/
+    background-color: #101016; /*Cor de Fundo - Preto*/
+    text-align: center; /*Alinha o Texto ao Centro*/
+    width: 80%; /*Largura de 80%*/
+    height: 24px; /*Altura de 24px*/
+    margin: 8px 0 16px; /*Margem Superior de 8px, Margem Inferior de 16px e zera nas laterais*/
+}
+
+/*BOTÃO DE CALCULAR*/
+#calcularBtn {
+    border: none; /*Tira a Borda*/
+    border-radius: 4px; /*Arredonda a Borda*/
+    background-color: #3179c2; /*Cor de Fundo Azul*/
+    width: 114px; /*Largura de 114px*/
+    height: 32px; /*Altura de 32px*/
+    margin-top: 32px; /*Margem Superior de 32px*/
+}
+
+/*RESULTADO*/
+#resultado {
+    margin-top: 64px; /*Margem do Topo de 64px*/
+    text-align: center; /*Alinha o Texto ao Centro*/
+}
+
+/*INPUTS E BOTÃO*/
+#calcularBtn, #litros, #km {
+    color: #f0f0f0; /*Cor do Texto - Branco*/
+}
+
+/*PARÁGRAFOS DO FORMULÁRIO E BOTÃO*/
+form label, #calcularBtn, #resultado {
+    font-size: 0.75rem; /*Tamanho da Fonte de 0.75rem - Aprox: 12px*/
+}

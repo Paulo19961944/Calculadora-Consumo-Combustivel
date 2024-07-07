@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Consumo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/styles/styles.css">
+    <link rel="stylesheet" href="src/styles/media-query.css">
+    <script src="src/scripts/script.js" defer></script>
+</head>
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>Calculadora de Consumo</legend>
+            <label for="litros">Litros de combustível:</label>
+            <input type="number" name="litros" id="litros">
+            <label for="km">Kilometros Percorridos:</label>
+            <input type="number" name="km" id="km">
+            <input type="submit" value="Calcular" id="calcularBtn">
+        </fieldset>
+        <p id="resultado"></p>
+    </form>
+</body>
+</html>
